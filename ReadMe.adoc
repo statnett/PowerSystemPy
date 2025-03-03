@@ -1,0 +1,48 @@
+= Python SDK for Power System
+v0.1.0-alpha, 2025-03-03
+:toc:  
+:toclevels: 2  
+
+== Overview  
+
+Python SDK for Power System (PowerSystemPy) is an **R&D project** investigating the feasibility of **generating a Python SDK from LinkML**. The focus is to explore how an SDK derived from *CIM17 EQ Profile* can be integrated with commonly used Python Data Analysis library like link:https://pandas.pydata.org/[*pandas*] and domain specific library like link:https://www.pandapower.org/[*pandapower*]  and how to access *triple stores* like link:https://graphdb.ontotext.com/[*GraphDB*] and link:https://rdf4j.org/[*RDF4J*].  
+
+The project will assess different approaches for querying and accessing SPARQL endpoints, including:
+
+- link:https://github.com/RDFLib/sparqlwrapper[SPARQLWrapper]
+- link:https://graphql.org/[GraphQL-based access]  
+- Alternative query mechanisms for RDF triple stores
+
+While the Python SDK will be based on *CIM17*, it will not strictly follow the library component structure that is intended for the release.   
+
+== Objectives  
+
+PowerSystemPy aims to:
+
+- Generate a Python SDK from link:https://linkml.io/linkml/index.html#[*LinkML*] and evaluate its usability for power system applications.
+- Test integration with Python-based tools such as *panda* and *PowerPandapower*.  
+- Investigate methods to interact with triple stores**, including *GraphDB* and *RDF4J*.  
+- Evaluate different query strategies**, including *SPARQLWrapper* and *GraphQL*, to interact with SPARQL endpoints.  
+- Explore the role of RDFLib for handling RDF-based data in Python.  
+
+== Relevant LinkML sources
+
+- link:https://linkml.io/linkml/generators/graphql.html[Generator GraphQL]
+- link:https://linkml.io/linkml/generators/sparql.html[Generator SPARQL]
+- link:https://linkml.io/linkml/generators/python.html[Gnerator Python]
+- link:https://linkml.io/linkml/generators/pydantic.html[Generator Pydontic]
+- link:https://linkml.io/linkml/generators/sqlalchemy.html[Generator Sqlalchemy]
+
+
+== Relevant Resources
+
+- RDFLib: link:https://github.com/RDFLib/rdflib[RDFLib GitHub]
+- SHACL Library for RDFLib: link:https://github.com/RDFLib/pySHACL[pySHACL]
+- LinkML Documentation: link:https://linkml.io/LinkML/[LinkML]
+
+
+== Accreditation  
+
+We acknowledge and accredit link:https://cimug.ucaiug.org/[UCA CIMug] and the team responsible for the development of *IEC 61968-452:2021 (CPSM)*, for their foundational work on the CIM profile included in this repository.  
+
+This repository and its contents are **made available under the Apache License 2.0**, ensuring open access, modification, and redistribution under the terms outlined in the `LICENSE` file.
