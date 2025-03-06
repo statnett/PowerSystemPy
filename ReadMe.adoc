@@ -20,9 +20,9 @@ While the Python SDK will be based on *CIM17*, it will not strictly follow the l
 PowerSystemPy aims to:
 
 - Generate a Python SDK from link:https://linkml.io/linkml/index.html#[*LinkML*] and evaluate its usability for power system applications.
-- Test integration with Python-based tools such as *panda* and *PowerPandapower*.  
-- Investigate methods to interact with triple stores**, including *GraphDB* and *RDF4J*.  
-- Evaluate different query strategies**, including *SPARQLWrapper* and *GraphQL*, to interact with SPARQL endpoints.  
+- Test integration with Python-based tools such as *pandas* and *PandaPower*.  
+- Investigate methods to interact with *triple stores*, including *GraphDB* and *RDF4J*.  
+- Evaluate different *query strategies*, including *SPARQLWrapper* and *GraphQL*, to interact with SPARQL endpoints.  
 - Explore the role of RDFLib for handling RDF-based data in Python.  
 
 == Relevant LinkML sources
@@ -30,7 +30,7 @@ PowerSystemPy aims to:
 - link:https://linkml.io/linkml/generators/graphql.html[Generator GraphQL]
 - link:https://linkml.io/linkml/generators/sparql.html[Generator SPARQL]
 - link:https://linkml.io/linkml/generators/python.html[Gnerator Python]
-- link:https://linkml.io/linkml/generators/pydantic.html[Generator Pydontic]
+- link:https://linkml.io/linkml/generators/pydantic.html[Generator Pydantic]
 - link:https://linkml.io/linkml/generators/sqlalchemy.html[Generator Sqlalchemy]
 
 
