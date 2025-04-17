@@ -43,6 +43,6 @@ PowerSystemPy aims to:
 
 == Accreditation  
 
-We acknowledge and accredit link:https://cimug.ucaiug.org/[UCA CIMug] and the team responsible for the development of *IEC 61968-452:2021 (CPSM)*, for their foundational work on the CIM profile included in this repository.  
+We acknowledge and accredit link:https://cimug.ucaiug.org/[UCA CIMug] and the team responsible for the development of *IEC 61970-452:2021 (CPSM)*, for their foundational work on the CIM profile included in this repository.  
 
 This repository and its contents are **made available under the Apache License 2.0**, ensuring open access, modification, and redistribution under the terms outlined in the `LICENSE` file.
